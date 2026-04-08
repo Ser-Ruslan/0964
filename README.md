@@ -26,14 +26,12 @@
 - Применение StandardScaler для моделей, требующих масштабирования
 
 ### 3. Обучение моделей
-Обучено 7 моделей машинного обучения:
+Обучено 5 моделей машинного обучения:
 - Logistic Regression (с масштабированием)
 - K-Nearest Neighbors (с масштабированием)  
 - Support Vector Machine (с масштабированием)
 - Naive Bayes (без масштабирования)
 - Decision Tree (без масштабирования)
-- Random Forest (без масштабирования)
-- Gradient Boosting (без масштабирования)
 
 ### 4. Оценка и сравнение
 - Расчет метрик: Accuracy, F1-score (macro)
@@ -60,17 +58,17 @@
 
 ### Важность масштабирования:
 - **Обязательно:** Logistic Regression, KNN, SVM (различие в масштабах > 200000%)
-- **Не требуется:** Decision Tree, Random Forest, Gradient Boosting, Naive Bayes
+- **Не требуется:** Decision Tree, Naive Bayes
 
 ### Анализ переобучения:
 - **Все модели стабильны** (переобучение ≤ 0.1)
-- Наибольшая разница train/test: Random Forest (0.050), Gradient Boosting (0.062)
+- Наибольшая разница train/test: 
 - Наименьшая разница: KNN (0.000), Naive Bayes (0.003)
 
 ### Лучшая производительность:
-1. **Random Forest**: F1 = 0.951, Accuracy = 0.950
-2. **KNN**: F1 = 0.938, Accuracy = 0.938  
-3. **Gradient Boosting**: F1 = 0.938, Accuracy = 0.938
+1. Support Vector Machine
+2. Logistic Regression
+3. K-Nearest Neighbors
 
 ## Метрики оценки
 - **Accuracy** (точность)
