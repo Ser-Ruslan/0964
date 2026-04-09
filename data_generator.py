@@ -9,7 +9,7 @@ import seaborn as sns
 SEED = 2026
 np.random.seed(SEED)
 
-# Генерация синтетического датасета
+
 def generate_synthetic_dataset():
     """
     Генерирует синтетический датасет для задачи классификации с 3 классами.
@@ -21,7 +21,7 @@ def generate_synthetic_dataset():
     - Разный масштаб признаков
     """
     
-    # Базовая генерация
+    
     X, y = make_classification(
         n_samples=400,
         n_features=6,
@@ -32,11 +32,11 @@ def generate_synthetic_dataset():
         n_clusters_per_class=1,
         class_sep=1.5,
         random_state=SEED,
-        flip_y=0.05,          # шума
+        flip_y=0.05,          # шум
         shuffle=True
     )
     
-    # Создание DataFrame
+    
     feature_names = [
         'income_level',           # информативный
         'age_group',             # информативный  
@@ -49,7 +49,7 @@ def generate_synthetic_dataset():
     df = pd.DataFrame(X, columns=feature_names)
     df['target'] = y
     
-    # Масштабирование признаков для создания разных масштабов
+    
     # Признак 1 доход (большой масштаб)
     df['income_level'] = df['income_level'] * 10000 + 50000
     
