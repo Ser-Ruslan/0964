@@ -73,7 +73,7 @@ pip install -r requirements.txt
 python data_generator.py
 ```
 ### Быстрый старт
-1. Запустите MLflow UI: `mlflow ui`
+1. Запустите MLflow UI: `mlflow ui` или `python start_mlflow.py`
 2. Откройте: http://localhost:5000
 3. Запустите: `ml_classification_analysis_mlflow_ru.ipynb`
 
