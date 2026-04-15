@@ -1,0 +1,14 @@
+artifact_uri: file:///C:/Users/Ruslan/Desktop/0964/mlruns/738703475446734544/13a71bbbc77c49fb9ab49cc6fee86ebd/artifacts
+end_time: 1776266424017
+entry_point_name: ''
+experiment_id: '738703475446734544'
+lifecycle_stage: active
+run_id: 13a71bbbc77c49fb9ab49cc6fee86ebd
+run_name: Дерево Решений
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1776266420794
+status: 3
+tags: []
+user_id: Ruslan

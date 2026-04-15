@@ -1,0 +1,14 @@
+artifact_uri: file:///C:/Users/Ruslan/Desktop/0964/mlruns/738703475446734544/8830238bd2e4423aaa0e92064573e89e/artifacts
+end_time: 1776266427022
+entry_point_name: ''
+experiment_id: '738703475446734544'
+lifecycle_stage: active
+run_id: 8830238bd2e4423aaa0e92064573e89e
+run_name: Наивный Байес
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1776266424027
+status: 3
+tags: []
+user_id: Ruslan

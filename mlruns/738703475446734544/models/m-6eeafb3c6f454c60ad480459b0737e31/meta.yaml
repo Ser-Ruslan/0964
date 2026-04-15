@@ -1,0 +1,10 @@
+artifact_location: file:///C:/Users/Ruslan/Desktop/0964/mlruns/738703475446734544/models/m-6eeafb3c6f454c60ad480459b0737e31/artifacts
+creation_timestamp: 1776266424220
+experiment_id: '738703475446734544'
+last_updated_timestamp: 1776266427013
+model_id: m-6eeafb3c6f454c60ad480459b0737e31
+model_type: null
+name: model
+source_run_id: 8830238bd2e4423aaa0e92064573e89e
+status: 2
+status_message: null

@@ -1,0 +1,14 @@
+artifact_uri: file:///C:/Users/Ruslan/Desktop/0964/mlruns/738703475446734544/f09b1c56d8a640508c08c843054c50a2/artifacts
+end_time: 1776266414816
+entry_point_name: ''
+experiment_id: '738703475446734544'
+lifecycle_stage: active
+run_id: f09b1c56d8a640508c08c843054c50a2
+run_name: Логистическая Регрессия
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1776266408874
+status: 3
+tags: []
+user_id: Ruslan

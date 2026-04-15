@@ -1,0 +1,14 @@
+artifact_uri: file:///C:/Users/Ruslan/Desktop/0964/mlruns/738703475446734544/35dbad9ccf0d46e4b19a96087b142697/artifacts
+end_time: 1776266914649
+entry_point_name: ''
+experiment_id: '738703475446734544'
+lifecycle_stage: active
+run_id: 35dbad9ccf0d46e4b19a96087b142697
+run_name: Сравнение_Моделей
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1776266914483
+status: 3
+tags: []
+user_id: Ruslan

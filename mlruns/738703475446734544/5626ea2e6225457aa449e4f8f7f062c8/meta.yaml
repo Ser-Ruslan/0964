@@ -1,0 +1,14 @@
+artifact_uri: file:///C:/Users/Ruslan/Desktop/0964/mlruns/738703475446734544/5626ea2e6225457aa449e4f8f7f062c8/artifacts
+end_time: 1776266908884
+entry_point_name: ''
+experiment_id: '738703475446734544'
+lifecycle_stage: active
+run_id: 5626ea2e6225457aa449e4f8f7f062c8
+run_name: SVM
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1776266906169
+status: 3
+tags: []
+user_id: Ruslan

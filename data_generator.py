@@ -30,7 +30,7 @@ def generate_synthetic_dataset():
         n_repeated=0,         # без повторяющихся признаков
         n_classes=3,
         n_clusters_per_class=1,
-        class_sep=1.5,
+        class_sep=0.5,
         random_state=SEED,
         flip_y=0.05,          # шум
         shuffle=True
