@@ -5,8 +5,11 @@ from sklearn.preprocessing import StandardScaler
 import matplotlib.pyplot as plt
 import seaborn as sns
 
+#(Set-ExecutionPolicy -Scope Process -ExecutionPolicy RemoteSigned) ; (& c:\Users\Ruslan\Desktop\0964\.venv1\Scripts\Activate.ps1)
+#mlflow ui --backend-store-uri sqlite:///mlflow_new.db
 
-SEED = 2026
+
+SEED = 543528 + 2026 
 np.random.seed(SEED)
 
 
@@ -78,6 +81,7 @@ def generate_synthetic_dataset():
 # Генерация и сохранение датасета
 dataset = generate_synthetic_dataset()
 
+dataset.to_csv('synthetic_classification_dataset.csv', index=False)
 
 print("Информация о сгенерированном датасете:")
 print(f"Размер: {dataset.shape}")

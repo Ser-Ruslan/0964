@@ -1,0 +1,33 @@
+artifact_path: file:///c:/Users/Ruslan/Desktop/0964/mlruns/1/models/m-c263a0c13a8c43d6b2a892495b163f55/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.10.0
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.7.2
+    skops_trusted_types: null
+is_signature_from_type_hint: false
+mlflow_version: 3.10.1
+model_id: m-c263a0c13a8c43d6b2a892495b163f55
+model_size_bytes: 1077
+model_uuid: m-c263a0c13a8c43d6b2a892495b163f55
+prompts: null
+run_id: e8bebd70024a4bf7b2c2bd427a901427
+signature:
+  inputs: '[{"type": "double", "name": "income_level", "required": true}, {"type":
+    "double", "name": "age_group", "required": true}, {"type": "double", "name": "credit_score_derived",
+    "required": true}, {"type": "double", "name": "debt_ratio_derived", "required":
+    true}, {"type": "long", "name": "zip_code", "required": true}, {"type": "long",
+    "name": "phone_area_code", "required": true}]'
+  outputs: '[{"type": "tensor", "tensor-spec": {"dtype": "int64", "shape": [-1]}}]'
+  params: null
+type_hint_from_example: false
+utc_time_created: '2026-05-07 06:03:39.605772'
