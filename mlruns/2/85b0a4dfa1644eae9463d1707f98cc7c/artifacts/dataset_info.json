@@ -1,0 +1,18 @@
+{
+  "train_shape": [
+    320,
+    6
+  ],
+  "test_shape": [
+    80,
+    6
+  ],
+  "feature_names": [
+    "income_level",
+    "age_group",
+    "credit_score_derived",
+    "debt_ratio_derived",
+    "zip_code",
+    "phone_area_code"
+  ]
+}

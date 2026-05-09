@@ -1,2 +1,29 @@
-/.venv
+# Виртуальные окружения
+.venv/
+.venv*/
+
+venv/
+ENV/
+env/
+/mlflow_new.db
+
+# Python кеш
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+
+# IDE
+.idea/
+.vscode/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# MLflow
+mlruns/
+*.db
+
+# Прочее
 /dataset_overview.png
